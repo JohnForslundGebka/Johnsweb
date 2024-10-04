@@ -41,7 +41,15 @@ body {
     text-align: left;
     grid-column: 3 / 9;
     grid-row: 2 / 21;
+    position: relative;
  }
+.ProfilePic {
+    width: 200px;
+    height: 250px;
+    position:absolute;
+    top: 100px;
+    right: 150px;
+}
 
  #AboutMe{
     text-align: left;
