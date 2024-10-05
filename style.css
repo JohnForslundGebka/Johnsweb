@@ -5,6 +5,7 @@
     padding: 10px;
     max-width: 1200px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
  .grid-item {
@@ -12,8 +13,7 @@
      padding: 20px;
      border: 2px solid #000000;
      border-radius: 15px;
-     text-align: center;
-     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+   /*  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
  }
 
  h3 {
@@ -29,12 +29,12 @@ body {
 
  main {
      display: contents;
-     
  }
 
  header {
-     grid-column: 3 / 9;
+     grid-column: 3 / 13;
      grid-row: 1;
+     text-align: left;
  }
 
  #welcome {
@@ -59,10 +59,10 @@ body {
  }
 
 #Work {
-    text-align: center;
+    text-align: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: top;
     grid-column: 3 / 7;
     grid-row: 21 / 35;
 }
@@ -74,18 +74,31 @@ body {
 
  #education{
     text-align: left;
-    grid-column: 3 / 9;
+    grid-column: 3 / 13;
     grid-row: 2 / 20;
  }
 
  #work-experience{
     text-align: left;
-    grid-column: 3 / 9;
+    grid-column: 3 / 13;
     grid-row: 20 / 40;
  }
 
  #Projects{
         text-align: left;
-        grid-column: 3 / 9;
+        grid-column: 3 / 13;
         grid-row: 40 / 45;
+ }
+
+ /*Color of links */
+
+ a{
+    color:#000000
+ }
+
+ .github-icon i {
+    display: block;
+     font-size: 40px;
+     color: #333;
+     transition: color 0.3s ease;
  }
