@@ -8,9 +8,9 @@
 }
 
  .grid-item {
-     background-color: #F2E5BF;
+     background-color: rgb(255, 255, 255);
      padding: 20px;
-     border: 2px solid #ccc;
+     border: 2px solid #000000;
      border-radius: 15px;
      text-align: center;
      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -24,7 +24,7 @@ body {
     font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
     
-    background-color: #257180
+    background-color:rgb(255, 255, 255)
 }
 
  main {
@@ -82,4 +82,10 @@ body {
     text-align: left;
     grid-column: 3 / 9;
     grid-row: 20 / 40;
+ }
+
+ #Projects{
+        text-align: left;
+        grid-column: 3 / 9;
+        grid-row: 40 / 45;
  }
