@@ -11,10 +11,11 @@
  .grid-item {
      background-color: rgb(255, 255, 255);
      padding: 20px;
-     border: 2px solid #000000;
+   /*  border: 2px solid #000000; */
      border-radius: 15px;
    /*  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); */
  }
+
 
  h3 {
      margin-bottom: 1px;
@@ -24,7 +25,7 @@ body {
     font-family: "Montserrat", sans-serif;
         font-optical-sizing: auto;
     
-    background-color:rgb(255, 255, 255)
+    background-color:rgb(244, 244, 244)
 }
 
  main {
@@ -90,10 +91,14 @@ body {
         grid-row: 40 / 45;
  }
 
- /*Color of links */
-
  a{
+    text-decoration: none;
     color:#000000
+    
+ }
+
+ a:hover{
+    color: rgb(115, 23, 48);
  }
 
  .github-icon i {
