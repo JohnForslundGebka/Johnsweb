@@ -1,57 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>John Forslund</title>
 
-    <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <div class="grid-container">
-    <header class="grid-item">
-      <a href="index.html"> <h2>Home</h2></a>
-    </header>
-    <main>
-       <section class="grid-item" id="welcome">
-          <p>Welcome</p>
-          <p>Hello! My name is <strong>John Forslund Gebka</strong>, a software developer with a passion for tech and people.</p>
-          <p>Feel free to reach out to me anytime!</p>
-     
-   <!--    <img src="assets/face cut.png" alt="John Forslund" class="ProfilePic"> -->
-       </section>
-       
-       <section class="grid-item" id="AboutMe">
-          <h3>About me</h3>
-           <p>Hi! I'm John, an embeded software developer from Göteborg Sweden</p> 
-          
-           <p>My primary tools are</p> 
-           <ul>
-              <li>C++</li>
-              <li>CMake</li>
-              <li>Linux</li>
-              <li>GDB</li>
-              <li>FreeRTOS</li>
-           </ul> 
-           <p>Outside of work, I'm a sci-fi and music nerd. I enjoy running in the woods with my wife and dog. I love cooking
-        (currently a lot of Chinese food) and play a lot of board games! I’m passionate about technology and often spend my
-        evenings programming and learning new software.</p>
-       </section> 
+   <div class="grid-container">
+      <header class="grid-item">
+         <a href="index.html">
+            <h2>Home</h2>
+         </a>
+      </header>
+      <main>
+         <section class="grid-item" id="welcome">
+            <p>Welcome</p>
+            <p>
+               Hello! My name is <strong>John Forslund Gebka</strong>, a software
+               developer with a passion for tech and people.
+            </p>
+            <p>Feel free to reach out to me anytime!</p>
 
-       <section class="grid-item" id="Work">
-        <a href="work.html"><h2>Work</h2></a>
-       </section>
+         <div id="contact-details">
+            <p><em>Contact details:</em></p>
+            <p>johnforslundsmail@gmail.com</p>
+         </div>
 
-       <section class="grid-item" id="Contact">
-          <p>johnforslundsmail@gmail.com</p>
-       </section>
-    </main>
-  </div>
+         </section>
 
+         <section class="grid-item" id="AboutMe">
+            <h3>About me</h3>
+            <p>
+               Hi! I'm John, an embeded software developer from Göteborg Sweden
+            </p>
+
+            <p>My primary tools are</p>
+            <ul>
+               <li>C++</li>
+               <li>CMake</li>
+               <li>Linux</li>
+               <li>GDB</li>
+               <li>FreeRTOS</li>
+            </ul>
+            <p>
+               Outside of work, I'm a sci-fi and music nerd. I enjoy running in the
+               woods with my wife and dog. I love cooking (currently a lot of
+               Chinese food) and play a lot of board games! I’m passionate about
+               technology and often spend my evenings programming and learning new
+               software.
+            </p>
+         </section>
+
+         <section class="grid-item" id="Work">
+            <a href="work.html">
+               <h2>Projects</h2>
+            </a>
+         </section>
+
+         <section class="grid-item" id="Contact">
+            <h3>Contact</h3>
+
+            <div id="contact-icons">
+               <!-- GitHub Icon -->
+               <a href="https://github.com/JohnForslundGebka/gbgame" target="_blank" class="contact-icon">
+                  <i class="fab fa-github"></i>
+               </a>
+
+               <!-- Email Icon -->
+               <a href="mailto:your.email@example.com" target="_blank" class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+               </a>
+
+               <!-- LinkedIn Icon -->
+               <a href="https://www.linkedin.com/in/yourlinkedinprofile" target="_blank" class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+               </a>
+            </div>
+         </section>
+      </main>
+   </div>
 </body>
+
 </html>

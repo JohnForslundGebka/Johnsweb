@@ -1,0 +1,19 @@
+
+#education{
+    text-align: left;
+    grid-column: 3 / 13;
+    grid-row: 2 / 20;
+ }
+
+ #work-experience{
+    text-align: left;
+    grid-column: 3 / 13;
+    grid-row: 20 / 40;
+ }
+
+ #Projects{
+        text-align: left;
+        grid-column: 3 / 13;
+        grid-row: 40 / 45;
+ }
+ 
