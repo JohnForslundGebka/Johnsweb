@@ -135,6 +135,14 @@ header {
       height: 50px;
       border-radius: 50%;
       border: none;
+      transition: width 0.3s ease, height 0.3s ease;
+ }
+
+ .color-button:hover {
+   cursor: pointer;
+
+   width: 55px;
+   height: 55px;
  }
 
  @media (max-width: 800px) {
