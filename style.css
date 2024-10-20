@@ -65,9 +65,9 @@ header {
  }
 
 #Work {
-    text-align: left;
+    text-align: center;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: top;
     grid-column: 3 / 7;
     grid-row: 21 / 30;
@@ -82,6 +82,21 @@ header {
  #color-picker{
    grid-column: 7 / 9;
    grid-row: 23 / 30;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+ }
+
+ #red-button{
+   background-color: red;
+ }
+
+ #blue-button{
+   background-color: blue;
+ }
+
+ #green-button{
+   background-color: green;
  }
 
  a{
@@ -113,6 +128,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+ }
+
+ .color-button{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
  }
 
  @media (max-width: 800px) {
